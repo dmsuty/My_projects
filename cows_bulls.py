@@ -172,7 +172,7 @@ class MyGame(QObject):
             CheckButton.setEnabled(True)
             TextLine.setEnabled(True)
             TextLine.setText("")
-            RestartButton.setText("Give up")
+            RestartButton.setText("Сдаться")
             self.new_game()
         else:
             self.give_up()
